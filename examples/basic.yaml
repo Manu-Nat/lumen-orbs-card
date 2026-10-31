@@ -1,0 +1,6 @@
+type: custom:lumen-orbs-card
+title: Luci
+layout: grid
+entities:
+  - light.soggiorno
+  - switch.lampada_scrivania

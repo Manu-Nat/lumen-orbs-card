@@ -1,0 +1,13 @@
+type: custom:lumen-orbs-card
+title: Qualità aria
+entities:
+  - entity: sensor.qualita_aria
+    name: Qualità aria interna
+    air_quality: true
+    air_colors:
+      excellent: "#00ff66"
+      good: "#7fff00"
+      moderate: "#ffd700"
+      poor: "#ff9900"
+      severe: "#ff3333"
+      danger: "#b040ff"

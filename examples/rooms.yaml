@@ -1,0 +1,19 @@
+type: custom:lumen-orbs-card
+title: Casa
+layout: select
+all_tab: true
+rooms:
+  - name: Soggiorno
+    icon: mdi:sofa
+    entities:
+      - entity: light.soggiorno
+        name: Luce principale
+      - entity: light.pianta
+        name: Luce pianta
+  - name: Cucina
+    icon: mdi:chef-hat
+    entities:
+      - entity: light.cucina
+entities:
+  - entity: switch.lampada_ingresso
+    name: Ingresso
