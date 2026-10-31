@@ -180,29 +180,6 @@ Il comando di spegnimento gruppo/tutto agisce sulle entità che risultano `on`, 
 
 La card usa API frontend di Home Assistant come `ha-card`, `ha-form`, `ha-icon`, `ha-state-icon`, `hass.callService` e `hass.formatEntityState`. Il file non dichiara una versione minima di Home Assistant: la compatibilità va verificata nell'istanza di destinazione.
 
-## Struttura del repository
-
-```text
-lumen-orbs-card/
-├── lumen-orbs-card.js
-├── hacs.json
-├── README.md
-├── CHANGELOG.md
-├── .gitignore
-├── LICENSE
-├── images/
-│   ├── glass-orb-on.png
-│   ├── glass-orb-off.png
-│   ├── reactor-on.png
-│   ├── reactor-off.png
-│   ├── liquid-on.png
-│   └── liquid-off.png
-└── examples/
-    ├── basic.yaml
-    ├── rooms.yaml
-    └── air-quality.yaml
-```
-
 ## Licenza
 
 La licenza non è stata dedotta automaticamente dal codice. Prima della pubblicazione scegli una licenza e inserisci il relativo testo integrale in `LICENSE`. Il file `LICENSE` incluso è intenzionalmente un promemoria, non concede diritti d'uso.
