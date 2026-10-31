@@ -5,6 +5,28 @@ Una custom Lovelace card per Home Assistant che visualizza luci, interruttori e 
 > **Versione del file fornito:** 2.2.0  
 > Il JavaScript incluso è stato copiato senza modifiche dal file ricevuto.
 
+## Anteprima degli stili
+
+La card offre tre stili grafici. Per ciascuno sono mostrate le varianti con entità accesa e spenta.
+
+### Sfera di vetro 3D
+
+| Accesa | Spenta |
+|:---:|:---:|
+| ![Sfera di vetro 3D accesa](images/glass-orb-on.png) | ![Sfera di vetro 3D spenta](images/glass-orb-off.png) |
+
+### Reattore a plasma
+
+| Acceso | Spento |
+|:---:|:---:|
+| ![Reattore a plasma acceso](images/reactor-on.png) | ![Reattore a plasma spento](images/reactor-off.png) |
+
+### Liquido
+
+| Acceso | Spento |
+|:---:|:---:|
+| ![Stile liquido acceso](images/liquid-on.png) | ![Stile liquido spento](images/liquid-off.png) |
+
 ## Funzionalità presenti nel codice
 
 - Sfere 3D animate con tre stili: **Sfera di vetro**, **Reattore a plasma** e **Liquido**.
@@ -168,6 +190,13 @@ lumen-orbs-card/
 ├── CHANGELOG.md
 ├── .gitignore
 ├── LICENSE
+├── images/
+│   ├── glass-orb-on.png
+│   ├── glass-orb-off.png
+│   ├── reactor-on.png
+│   ├── reactor-off.png
+│   ├── liquid-on.png
+│   └── liquid-off.png
 └── examples/
     ├── basic.yaml
     ├── rooms.yaml
