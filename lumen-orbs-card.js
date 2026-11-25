@@ -272,7 +272,7 @@ function makeRoomsEditor(o) {
 }
 
 const DOM_COL = {
-  light: [255, 190, 70], switch: [0, 176, 255], fan: [60, 220, 200], automation: [170, 120, 255],
+  light: [255, 190, 70], switch: [0, 176, 255], fan: [60, 220, 200], humidifier: [90, 200, 255], automation: [170, 120, 255],
   input_boolean: [255, 100, 170], scene: [255, 140, 60], script: [110, 230, 120], button: [240, 240, 255],
   sensor: [100, 200, 255], binary_sensor: [120, 220, 150], lock: [250, 150, 100], select: [200, 150, 250],
 };
@@ -711,7 +711,7 @@ class LumenOrbsCard extends HTMLElement {
 }
 
 const LumenEditor = makeRoomsEditor({
-  domains: ['light', 'switch', 'input_boolean', 'fan', 'automation', 'script', 'scene', 'button', 'sensor', 'binary_sensor', 'lock', 'select'],
+  domains: ['light', 'switch', 'input_boolean', 'fan', 'humidifier', 'automation', 'script', 'scene', 'button', 'sensor', 'binary_sensor', 'lock', 'select'],
   defaults: { layout: 'grid', show_all_off: true, all_tab: true, orb_style: 'orb', orb_scale: 1, show_state: false },
   looseLabel: 'Dispositivi senza stanza (opzionale)',
   schema: [
